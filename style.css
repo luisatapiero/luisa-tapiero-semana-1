@@ -144,6 +144,7 @@
     width: 1000px;
     margin: 30px;
     padding-left: 80px;
+    
     /*display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -168,6 +169,20 @@
   font-size: 30px;
   color:#fff;
   font-weight: 700;
+}
+
+button{
+  width: 57px;
+height: 34px;
+
+color:#fff;
+border: 0.05px solid #FFFFFF;
+border-radius: 36.5641px;
+}
+
+button.arrow{
+  width: 34px;
+height: 34px;
 }
 
   #first-column-radio{
@@ -242,15 +257,20 @@ h5 .subtitle {
   justify-content: space-between;
   align-items: flex-start;
 }
+#user-title{
+  display: flex;
+    flex-direction: row;
+}
 
 #listen-again .header-listen-again{
-  width: 400px;
+  width: 1300px;
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
+  align-items: end;
+  justify-content: space-between;
 }
+
 
 #listen-again-nav ul {
   width: 800px;
