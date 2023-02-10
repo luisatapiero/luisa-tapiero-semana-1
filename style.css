@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #030303;
+  }
+  
+  li,
+  button,
+  h1,
+  h2,
+  h3,
+  p {
+    font-family: Roboto;
+  }
+  
+  header {
+    /*background-color: #ccc;*/
+    
+    height: 70px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #logo {
+    margin: 0;
+    height: 100%;
+  }
+  
+  #logo img {
+    height: 24px;
+    width: 80px;
+  }
+
+  #user img {
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    
+  }
+
+  #user2 img {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    margin: 20px;
+    margin-left: 20px;
+  }
+  
+  #main-nav {
+    width: 300px;
+    height: 100%;
+  }
+  
+  li.nav-item {
+    list-style-type: none;
+    border-bottom: 1px solid rgba(46, 60, 84, 0);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    margin: 8px;
+    padding: 20px;
+    color: rgba(255,255,255,0.5);
+  }
+  
+  li.nav-item:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  #main-nav ul {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #mood-tags-section{
+    width: 100px;
+    height: 100%;
+    padding-top: 50px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+ 
+  #second-nav ul{
+    
+    width: 800px;
+    height: 100%;
+  }
+  
+  li.mood-item {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: regular;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    
+  }
+  
+  
+  #second-nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+  }
+
+  #radio {
+    height: 100%;
+    width: 1000px;
+    margin: 30px;
+    padding-left: 80px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;*/
+  }
+
+  #radio-columns{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  h2{
+    font-size: 16px;
+    color:#ffffff83;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+  h1{
+  font-size: 30px;
+  color:#fff;
+  font-weight: 700;
+}
+
+  #first-column-radio{
+  height: 100%;
+    width: 400px;
+    margin: 30px;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+#first-column-radio ul{
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+    
+    
+}
+
+#first-column-radio li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: regular;
+  padding: 10px;
+
+  
+}
+
+  h5{
+  /*display: flex;
+  flex-direction: row;
+  justify-content: center;*/
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight:600;
+  color:#fff;
+}
+
+h5 .subtitle {
+  /*flex-wrap: wrap;*/
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight:400;
+  color:#ffffff5d;
+}
+
+
+
+
+#radio ul img{
+  /*display: flex;
+  flex-direction: row;*/
+  width: 48px;
+  height: 48px;
+}
+
+
+#listen-again {
+  height: 100%;
+  width: 1000px;
+  margin: 30px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#listen-again .header-listen-again{
+  width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#listen-again-nav ul {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li.card-song {
+  list-style-type: none;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: regular;
+  color: #fff;
+  border: none;
+  
+}
+
+#listen-again ul img{
+  display: flex;
+  flex-direction: row;
+  width: 190.66px;
+  height: 190.66px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+
+  
+  #presentation-images {
+    background-color: white;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgs-container {
+    margin-top: -100px;
+    display: flex;
+  }
+  .square-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 16px;
+  }
+  .square-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
